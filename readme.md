@@ -411,8 +411,3 @@ Here are the various screens of the Admin portal that you should be able to use 
     <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/profile.png">
 </p>
 
-## Contributors ##
-[Arpit Khandelwal](https://www.linkedin.com/in/arpitkhandelwal1984/)
-
-## License ##
-This project is licensed under the terms of the MIT license.
