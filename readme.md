@@ -365,49 +365,4 @@ You can use the User spec to execute the login api for generating the Bearer tok
 
 The configuration of Swagger is being taken care of by class BrsConfiguration. I have defined two specs there with the help of "swaggerBRSApi" and "swaggerUserApi" methods. Since the login part is by default taken care of by Spring Security we don't get to expose its apis implicitly as the rest of the apis defined in the system and for the same reason I have defined a controller in the config package with the name "FakeController". Its purpose is to facilitate the generation of swagger documentation for login and logout apis, it will never come into existence during the application life cycle as the "/api/auth" api is being handled by the security filters defined in the code base. 
 
-## User Interface ##
-Here are the various screens of the Admin portal that you should be able to use once the application is setup properly :
-
-
-<p align="center">
-    <b>Login</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/login.png">
-</p>
-
-<p align="center">
-    <b>Signup</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/signup.png">
-</p>
-
-<p align="center">
-    <b>Dashboard</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/dashboard.png">
-</p>
-
-<p align="center">
-    <b>Agency</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/agency.png">
-</p>
-
-<p align="center">
-    <b>Buses</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/buses.png">
-</p>
-
-<p align="center">
-    <b>Trips</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/trips.png">
-</p>
-
-<p align="center">
-    <b>Profile</b><br>
-    <br>
-    <img width="800" src="https://github.com/khandelwal-arpit/springboot-starterkit/blob/master/docs/images/app-screens/profile.png">
-</p>
 
